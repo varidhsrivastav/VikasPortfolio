@@ -1,32 +1,5 @@
-// import check from "./check.png";
 import lap from "./Trading-1.webp";
-
 import { useEffect, useRef, useState } from "react";
-// function startTimer(duration) {
-//   let timer = duration;
-//   const daysElement = document.getElementById("days");
-//   const hoursElement = document.getElementById("hours");
-//   const minutesElement = document.getElementById("minutes");
-//   const secondsElement = document.getElementById("seconds");
-//   const interval = setInterval(function () {
-//     const days = Math.floor(timer / (60 * 60 * 24));
-//     const hours = Math.floor((timer % (60 * 60 * 24)) / (60 * 60));
-//     const minutes = Math.floor((timer % (60 * 60)) / 60);
-//     const seconds = Math.floor(timer % 60);
-//     daysElement.textContent = days < 10 ? "0" + days : days;
-//     hoursElement.textContent = hours < 10 ? "0" + hours : hours;
-//     minutesElement.textContent = minutes < 10 ? "0" + minutes : minutes;
-//     secondsElement.textContent = seconds < 10 ? "0" + seconds : seconds;
-//     if (--timer < 0) {
-//       timer = duration;
-//       // Restart the timer
-//     }
-//   }
-//                                , 1000);
-// }
-// Start the timer with a duration of 15 minutes (15 * 60 seconds)
-// startTimer(15 * 60);
-// import lap from "./Trading-1.webp";
 const StandFor = () => {
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
@@ -174,7 +147,7 @@ const StandFor = () => {
               <div>
                 <img src={lap} alt="" />
               </div>
-             
+
               <div className="flex gap-3 justify-center items-center ">
                 <div className="flex flex-col ">
                   <p className="text-5xl  font-bold text-center">{timerDays}</p>
@@ -187,17 +160,23 @@ const StandFor = () => {
                 </div>
                 <div className="text-5xl">:</div>
                 <div className="flex flex-col ">
-                  <p className="text-5xl  font-bold text-center">{timerMinutes}</p>
+                  <p className="text-5xl  font-bold text-center">
+                    {timerMinutes}
+                  </p>
                   <p className="text-xl text-center">Minutes</p>
                 </div>
                 <div className="text-5xl">:</div>
                 <div className="flex flex-col ">
-                  <p className="text-5xl  font-bold text-center">{timerSeconds}</p>
+                  <p className="text-5xl  font-bold text-center">
+                    {timerSeconds}
+                  </p>
                   <p className="text-xl text-center">Seconds</p>
                 </div>
               </div>
               <div>
-              <button className="button-3 text-2xl">Join the exclusive Group now</button>
+                <button className="button-3 text-2xl">
+                  Join the exclusive Group now
+                </button>
                 {/* <p className="text-3xl text-center font-semibold">Join the offer now</p> */}
               </div>
             </div>

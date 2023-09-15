@@ -7,6 +7,8 @@ import Work from './Componants/WhatWeOffer/WhatweOffer';
 import StandFor from './Componants/SatndFor/StandFor';
 import JoinCard from './Componants/JoinCard/JoinCard';
 import Intro from './Componants/Intro/Intro';
+import FAQspalne from './Componants/FAQsPlane/FAQspalne';
+import Footer from './Componants/Footer/Footer';
 
 
 function App() {
@@ -15,10 +17,12 @@ function App() {
     <>
     <Intro/>
     <StandFor/>
-    <JoinCard/>
     <Work/>
     <Testimonilas/>
-    <FAQ/>
+    {/* <FAQ/> */}
+    <FAQspalne/>
+    <JoinCard/>
+    <Footer/>
     </>
   )
 }
