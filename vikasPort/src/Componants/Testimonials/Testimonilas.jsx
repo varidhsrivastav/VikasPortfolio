@@ -9,18 +9,21 @@ const TestiData = [
     clientImage: one,
     ClientName: "Author Name",
     content: `Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin. `,
+    dataAos:"fade-up-right"
   },
   {
     id: "02",
     clientImage: two,
     ClientName: "Author Name",
     content: `Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin. `,
+    dataAos:"fade-up-left"
   },
   {
     id: "03",
     clientImage: three,
     ClientName: "Author Name",
     content: `Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin. `,
+    dataAos:"fade-up-right"
   },
 ];
 
@@ -33,7 +36,7 @@ const Testimonilas = () => {
         className="absolute -z-10 w-[100%] opacity-[0.15]"
       />
       <div className="container">
-        <section className="max-w-[80%] mx-auto ">
+        <section className=" mx-auto ">
           <div className="text-center">
             <div className="flex justify-center pb-2">
               <svg
@@ -67,7 +70,7 @@ const Testimonilas = () => {
               </svg>
             </div>
             {/* <h1 className="text-xl">TESTIMONIALS</h1> */}
-            <p className="text-5xl pb-5 font-bold text-center text-[#495057]">
+            <p className="text-3xl sm:text-5xl pb-3 sm:pb-5 font-bold text-center text-[#495057]">
               We are committed expert partners
             </p>
           </div>

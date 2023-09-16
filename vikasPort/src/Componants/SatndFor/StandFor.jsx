@@ -1,4 +1,5 @@
 import lap from "./Trading-1.webp";
+import tel from "/telegram.png"
 import { useEffect, useRef, useState } from "react";
 const StandFor = () => {
   const [timerDays, setTimerDays] = useState("00");
@@ -83,7 +84,7 @@ const StandFor = () => {
   return (
     <div className="py-[100px]">
       <div className="container">
-        <div className="max-w-[80%] mx-auto">
+        <div className=" mx-auto">
           <div className="flex justify-center ">
             <svg
               width="50px"
@@ -120,16 +121,16 @@ const StandFor = () => {
               </g>{" "}
             </svg>
           </div>
-          <p className="text-5xl pt-2 pb-5 font-bold text-center text-[#495057]">
+          <p className="sm:text-5xl text-3xl pt-2 pb-5 font-bold text-center text-[#495057]">
             Join The Next Revolution.
           </p>
-          <div className="flex sm:flex-row flex-col gap-5">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 lg:px-4 flex-[60%]">
+          <div className="flex xl:flex-row flex-col gap-5">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 lg:px-4 flex-[60%]"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
               {diffdata.map((item, index) => (
                 <div key={index} className="my-4">
                   <div className="flex gap-5">
                     <div
-                      className={`bg-black text-white flex  rounded-[50%] text-3xl w-[50px] h-[50px] items-center justify-center ${item.classNamea}`}
+                      className={` text-white flex  rounded-[50%] text-3xl w-[50px] h-[50px] items-center justify-center ${item.classNamea}`}
                     >
                       <h1 className="">{item.number}</h1>
                     </div>
@@ -143,7 +144,7 @@ const StandFor = () => {
             <img src={check} alt="" className="w-[100%]" />
           </div> */}
             </div>
-            <div className="flex-[40%] flex flex-col gap-5 justify-center items-center">
+            <div data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine" className="flex-[40%] flex flex-col gap-5 justify-center items-center">
               <div>
                 <img src={lap} alt="" />
               </div>
@@ -174,9 +175,12 @@ const StandFor = () => {
                 </div>
               </div>
               <div>
-                <button className="button-3 text-2xl">
-                  Join the exclusive Group now
-                </button>
+              <a className="button-3  px-4 py-2" href="https://t.me/+wzWxNqcChlwwZWY1" target="_blank" rel="noreferrer">
+            <div className="flex flex-row gap-4 justify-center items-center">
+              <img src={tel} alt="" className="w-[40px]" />
+              <p className="sm:text-3xl text-xl">Join the exclusive group</p>
+            </div>
+            </a>
                 {/* <p className="text-3xl text-center font-semibold">Join the offer now</p> */}
               </div>
             </div>

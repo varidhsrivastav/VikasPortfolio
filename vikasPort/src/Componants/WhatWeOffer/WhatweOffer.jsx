@@ -2,6 +2,7 @@ import WhatWeOfferComp from "./WhatWeOfferComp";
 import eductaion from "./data-analytics.png";
 import trading from "./trader.png";
 import support from "./help.png";
+import tel from "/telegram.png"
 const WorkData = [
   {
     id: "01",
@@ -36,7 +37,7 @@ const Work = () => {
   return (
     <div className="bg-[#F8F9FA] pt-[100px]">
     <div className="container">
-      <div className="max-w-[80%] mx-auto">
+      <div className=" mx-auto">
         <div className=" flex justify-center">
           <svg
             width="50px"
@@ -116,19 +117,22 @@ const Work = () => {
           </svg>
         </div>
         <div className="text-center">
-          <div className="text-5xl py-2 font-bold text-center text-[#495057]">
+          <div className="text-3xl sm:text-5xl py-1 sm:py-2 font-bold text-center text-[#495057]">
             What You Get With Our <br />
             Free Membership?
           </div>
         </div>
-        <div className="flex flex-col gap-3 py-28">
+        <div className="flex flex-col gap-2 sm:gap-3 py-28">
           {WorkData.map((data) => {
             return <WhatWeOfferComp key={data.id} {...data} />;
           })}
       <div className="flex justify-center pt-5">
-        <button className="button-3 text-3xl ">
-          Join our exclusive Group
-        </button>
+      <a className="button-3  px-4 py-2" href="https://t.me/+wzWxNqcChlwwZWY1" target="_blank" rel="noreferrer">
+            <div className="flex flex-row gap-4 justify-center items-center">
+              <img src={tel} alt="" className="w-[40px]" />
+              <p className="sm:text-3xl text-xl">Join the exclusive group</p>
+            </div>
+            </a>
       </div>
         </div>
       </div>
