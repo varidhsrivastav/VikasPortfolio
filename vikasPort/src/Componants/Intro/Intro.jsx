@@ -16,7 +16,7 @@ const Intro = () => {
           <div className="text-center">
             <p className="sm:text-3xl text-2xl font-black py-2  text-black ">Thakur Ji Trading</p>
             <p className="lg:text-6xl text-4xl font-bold text-white">
-              Join Premium Trading Tips And Embark On Your Path To Financial
+              Join Premium Trading Group And Embark On Your Path To Financial
               Freedom Today!
             </p>
             <div className="flex justify-center py-3">
