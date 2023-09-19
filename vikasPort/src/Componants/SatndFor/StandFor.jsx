@@ -151,24 +151,24 @@ const StandFor = () => {
 
               <div className="flex gap-3 justify-center items-center ">
                 <div className="flex flex-col ">
-                  <p className="text-5xl  font-bold text-center">{timerDays}</p>
+                  <p className="sm:text-5xl text-3xl font-bold text-center">{timerDays}</p>
                   <p className="text-xl text-center">days</p>
                 </div>
                 <div className="text-5xl">:</div>
                 <div className="flex flex-col ">
-                  <p className="text-5xl font-bold text-center">{timerHours}</p>
+                  <p className="sm:text-5xl text-3xl font-bold text-center">{timerHours}</p>
                   <p className="text-xl text-center">Hours</p>
                 </div>
                 <div className="text-5xl">:</div>
                 <div className="flex flex-col ">
-                  <p className="text-5xl  font-bold text-center">
+                  <p className="sm:text-5xl text-3xl  font-bold text-center">
                     {timerMinutes}
                   </p>
                   <p className="text-xl text-center">Minutes</p>
                 </div>
                 <div className="text-5xl">:</div>
                 <div className="flex flex-col ">
-                  <p className="text-5xl  font-bold text-center">
+                  <p className="sm:text-5xl text-3xl  font-bold text-center">
                     {timerSeconds}
                   </p>
                   <p className="text-xl text-center">Seconds</p>
