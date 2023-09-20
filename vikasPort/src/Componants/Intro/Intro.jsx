@@ -29,7 +29,7 @@ const Intro = () => {
             <a className="button-3  px-4 py-2" href="https://t.me/+wzWxNqcChlwwZWY1" target="_blank" rel="noreferrer">
             <div className="flex flex-row gap-4 justify-center items-center">
               <img src={tel} alt="" className="w-[40px]" />
-              <p className="sm:text-3xl text-xl">Join the exclusive group</p>
+              <p className="sm:text-3xl text-xl">Join the exclusive group </p>
             </div>
             </a>
           </div>
