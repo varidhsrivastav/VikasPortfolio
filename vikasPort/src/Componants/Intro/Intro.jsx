@@ -21,9 +21,7 @@ const Intro = () => {
             </p>
             <div className="flex justify-center py-3">
               <p className="text-xl sm:w-[70%] font-medium color-black">
-                Don&apos;t miss out on this opportunity to enhance your trading
-                skills and achieve your financial goals. Join our community of
-                traders who are committed to success.
+                Don&apos;t miss out on this opportunity to enhance your intraday trading skills and achieve your financial goals. Join our FREE telegram group and start your profitable trading journey.
               </p>
             </div>
           </div>
