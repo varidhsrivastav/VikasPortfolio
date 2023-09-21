@@ -21,7 +21,9 @@ const Intro = () => {
             </p>
             <div className="flex justify-center py-3">
               <p className="text-xl sm:w-[70%] font-medium color-black">
-                Don&apos;t miss out on this opportunity to enhance your intraday trading skills and achieve your financial goals. Join our FREE telegram group and start your profitable trading journey.
+                Don&apos;t miss out on this opportunity to enhance your trading
+                skills and achieve your financial goals. Join our community of
+                traders who are committed to success.
               </p>
             </div>
           </div>
@@ -29,7 +31,7 @@ const Intro = () => {
             <a className="button-3  px-4 py-2" href="https://t.me/+wzWxNqcChlwwZWY1" target="_blank" rel="noreferrer">
             <div className="flex flex-row gap-4 justify-center items-center">
               <img src={tel} alt="" className="w-[40px]" />
-              <p className="sm:text-3xl text-xl">Join the exclusive group</p>
+              <p className="sm:text-3xl text-xl">Join the exclusive group </p>
             </div>
             </a>
           </div>
