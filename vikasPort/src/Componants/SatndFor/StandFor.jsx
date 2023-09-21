@@ -14,7 +14,7 @@ const StandFor = () => {
   const startTimer = () => {
     let month = monthtext + 2;
     // const countdownDate = new Date(`${month} 15, 2023 00:00:00`).getTime();
-    const countdownDate = new Date(`2023-${month}-15T00:00:00`).getTime();
+    const countdownDate = new Date(`2023-${month}-01T00:00:00`).getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
