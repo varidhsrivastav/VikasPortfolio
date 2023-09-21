@@ -9,6 +9,7 @@ import Intro from './Componants/Intro/Intro';
 import FAQspalne from './Componants/FAQsPlane/FAQspalne';
 import Footer from './Componants/Footer/Footer';
 import TradPartner from './Componants/TradPartner/TradPartner';
+import WhatsappRev from './Componants/WhatsappRe/WhatsappRev';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Work/>
     <TradPartner/>
     <Testimonilas/>
+    <WhatsappRev/>
     <FAQspalne/>
     <JoinCard/>
     <Footer/>

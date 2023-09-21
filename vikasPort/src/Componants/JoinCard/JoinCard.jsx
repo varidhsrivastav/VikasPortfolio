@@ -19,7 +19,7 @@ const JoinCard = () => {
         <div className="bg-[#00c36bd0] relative flex flex-col gap-10 rounded-xl max-w-[80%] mx-auto sm:p-20 px-2 py-5 text-center overflow-hidden">
         <img src={banner} className="absolute  top-[0%] right-[0%] " alt="" />
           <h1 className="sm:text-5xl text-3xl font-bold text-white">
-            To find more about our <span className="">Trading Tips</span>
+          To Start Your Profitable Trading Journey
           </h1>
           <div className="flex justify-center ">
           <a className="bg-[#E9345D] p-2 rounded-xl " href="https://t.me/+wzWxNqcChlwwZWY1" target="_blank" rel="noreferrer">

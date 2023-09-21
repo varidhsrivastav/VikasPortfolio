@@ -7,22 +7,22 @@ const TestiData = [
   {
     id: "01",
     clientImage: one,
-    ClientName: "Author Name",
-    content: `Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin. `,
+    ClientName: "Neeraj Joshi",
+    content: `I wanted to express my heartfelt appreciation for the BankNifty trading Strategy that I received from Thakurji Trading Group. It turned out to be an absolute game-changer for my trading strategy, and I wanted to share my gratitude.`,
     dataAos:"fade-up-right"
   },
   {
     id: "02",
     clientImage: two,
-    ClientName: "Author Name",
-    content: `Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin. `,
+    ClientName: "Vinod Rawat",
+    content: `I am truly grateful for this valuable BankNifty trading Guidence . It has not only added to my financial gains but also expanded my knowledge and understanding of the market. I look forward to receiving more insightful trading Charts in the future. `,
     dataAos:"fade-up-left"
   },
   {
     id: "03",
     clientImage: three,
-    ClientName: "Author Name",
-    content: `Vitae suscipit tellus mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh sed pulvinar proin. `,
+    ClientName: "Sandeep Verma",
+    content: `I wanted to take a moment to express my sincere gratitude for the incredible guidance and mentorship Thakurji Trading  provided during my trading journey. Your expertise and support have made a profound impact on my trading skills and overall confidence in the stock market.`,
     dataAos:"fade-up-right"
   },
 ];

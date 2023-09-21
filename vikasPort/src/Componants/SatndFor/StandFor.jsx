@@ -49,12 +49,12 @@ const StandFor = () => {
     {
       number: 1,
       content:
-        "Collective insights boost informed trading choices, reducing risks.",
+        "Banknifty & Stock options insights boost informed trading choices, reducing risks.",
       classNamea: "bg-[#00C36C]",
     },
     {
       number: 2,
-      content: "Varied viewpoints uncover hidden opportunities and strategies.",
+      content: "Momentum Trend Trading Pure Price Action Based strategies.",
       classNamea: "bg-[#35B5FC]",
     },
     {
