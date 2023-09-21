@@ -32,7 +32,7 @@ const WhatsappRev = () => {
           disableOnInteraction: false,
         }}
               modules={[EffectCards,Autoplay]}
-              className="mySwiper sm:h-[700px] sm:w-[340px] h-[600px] w-[300px]"
+              className="mySwiper sm:h-[700px] sm:w-[340px] h-[600px] w-[300px] pt-[50px]"
             >
               <SwiperSlide>
                 <img className='' src={w1} alt="" />
