@@ -71,7 +71,7 @@ const Testimonilas = () => {
             </div>
             {/* <h1 className="text-xl">TESTIMONIALS</h1> */}
             <p className="text-3xl sm:text-5xl pb-3 sm:pb-5 font-bold text-center text-[#495057]">
-              We are committed expert partners
+            Discover What Our Customers Love About Us
             </p>
           </div>
 

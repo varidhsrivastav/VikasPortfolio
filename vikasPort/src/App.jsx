@@ -20,8 +20,8 @@ function App() {
     <StandFor/>
     <Work/>
     <TradPartner/>
-    <Testimonilas/>
     <WhatsappRev/>
+    <Testimonilas/>
     <FAQspalne/>
     <JoinCard/>
     <Footer/>

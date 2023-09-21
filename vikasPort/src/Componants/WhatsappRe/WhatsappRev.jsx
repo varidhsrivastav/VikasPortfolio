@@ -10,7 +10,7 @@ import w3 from "./image/w3.jpg"
 import w4 from "./image/w4.jpg"
 import w5 from "./image/w5.jpg"
 import w6 from "./image/w6.jpg"
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay,  } from 'swiper/modules';
 const WhatsappRev = () => {
   return (
     <div className='py-[100px] relative overflow-hidden'>
