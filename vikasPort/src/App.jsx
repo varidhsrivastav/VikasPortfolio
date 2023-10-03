@@ -10,7 +10,6 @@ import FAQspalne from './Componants/FAQsPlane/FAQspalne';
 import Footer from './Componants/Footer/Footer';
 import TradPartner from './Componants/TradPartner/TradPartner';
 import WhatsappRev from './Componants/WhatsappRe/WhatsappRev';
-import Post from './sendPost/Post';
 
 
 function App() {
@@ -18,7 +17,6 @@ function App() {
   return (
     <div className='overflow-hidden'>
     <Intro/>
-    <Post/>
     <StandFor/>
     <Work/>
     <TradPartner/>
