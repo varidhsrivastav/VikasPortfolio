@@ -16,7 +16,7 @@ const Intro = () => {
           <div className="text-center">
             <p className="sm:text-3xl text-2xl font-black py-2  text-black ">Thakur Ji Trading</p>
             <p className="lg:text-6xl text-4xl font-bold text-white">
-              Join Premium Trading Group And Embark On Your Path To Financial
+            Join our Free Trading Group and Embark On Your Path To Financial
               Freedom Today!
             </p>
             <div className="flex justify-center py-3">
@@ -29,7 +29,7 @@ const Intro = () => {
             <a className="button-3  px-4 py-2" href="https://t.me/+wzWxNqcChlwwZWY1" target="_blank" rel="noreferrer">
             <div className="flex flex-row gap-4 justify-center items-center">
               <img src={tel} alt="" className="w-[40px]" />
-              <p className="sm:text-3xl text-xl">Join the exclusive group </p>
+              <p className="sm:text-3xl text-xl capitalize">Join the FREE telegram group</p>
             </div>
             </a>
           </div>
